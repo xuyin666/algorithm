@@ -4,7 +4,7 @@ public class algo16 {
     public int threeSumClosest(int[] nums, int target) {
         if(nums.length<3)
             return Integer.MIN_VALUE;
-        Arrays.sort(nums);  
+        Arrays.sort(nums);
         int gap=Integer.MAX_VALUE;
         int i,j,k;
         int num_sum,diff;
